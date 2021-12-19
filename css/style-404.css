@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy, sans-serif;
+}
+
+
+body {
+    background-image: url("/404.jpg");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+}
+
+
+body {
+    background: linear-gradient(270deg, #ffffff, #cfcfcf, #d8d8d8);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.p404{
+    position: relative;
+    top:25%;
+}
+
+.p404 h1{
+    font-size: 180px;
+    color: #FE3939;
+    margin-bottom: 0;
+}
+
+.p404 h3{
+    margin-top: -40px;
+    position: relative;
+    top: -10%;
+    font-size: 40px;
+    font-weight: 300;
+    color: #FE3939;
+}
+
+.p404 p{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #808080;
+    font-weight: 100;
+    margin-bottom: 50px;
+    mix-blend-mode: darken;
+}
+
+.p404 a{
+    margin-top: 150px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #FE3939;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #FE3939;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.p404 a:hover{
+    background-color: #FE3939;
+    color: #fff;
+    -webkit-transition: all 0.4s ;
+    -moz-transition: all 0.4s ;
+    -o-transition: all 0.4s ;
+    -ms-transition: all 0.4s ;
+    transition: all 0.4s ;
+}
